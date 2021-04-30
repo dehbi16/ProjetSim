@@ -2,19 +2,14 @@
 public class Event {
 	private int type;
 	private double time;
-	private int  id;
 	private int etage;
-	
-	public int getId() {
-		return id;
-	}
+
 
 	public int getEtage() {
 		return etage;
 	}
 
-	public Event(int id, int type, double time, int etage) {
-		this.id = id;
+	public Event(int type, double time, int etage) {
 		this.type = type;
 		this.time = time;
 		this.etage = etage;
